@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  width: 255px;
+  text-align: center;
+  color: white;
+  font-weight: 500;
+}
+.dashboard {
+  background-color: #f25;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-size: 30px;
+}
+.dashboard span {
+  color: #fa0;
+}
+.square {
+  height: 80px;
+  width: 80px;
+  background-color: #f25;
+  float: left;
+  margin: 2px;
+  font-size: 50px;
+}
+.square:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+.stop {
+  display: none;
+}
